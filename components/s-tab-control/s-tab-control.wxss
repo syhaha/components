@@ -1,0 +1,19 @@
+/* components/s-tab-control/s-tan-control.wxss */
+.tab-control {
+  display: flex;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: greenyellow;
+}
+.tab-item {
+  flex: 1;
+  font-size: 30rpx;
+  text-align: center;
+}
+.active {
+  color: red;
+}
+.active text {
+  padding: 8rpx 16rpx;
+  border-bottom: 6rpx solid red;
+}
